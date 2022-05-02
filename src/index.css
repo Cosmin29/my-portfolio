@@ -52,7 +52,6 @@ h1 {
 
 section {
     margin-top: 8rem;
-    height: 100vh;
 }
 
 section > h2, section > h5 {
@@ -108,7 +107,7 @@ img {
 
 /* ================ For Medium Devices (tablets) ================= */
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .container {
         width: var(--container-width-md);
     }
@@ -120,7 +119,7 @@ img {
 
 /* ================ For Small Devices (phones) ================= */
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
     .container {
         width: var(--container-width-sm);
     }
