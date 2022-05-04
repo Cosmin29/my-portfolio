@@ -1,0 +1,48 @@
+.container.hobbies_container {
+    width: 50%;
+}
+
+.hobby_photo {
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.hobby {
+    background: var(--color-bg-variant);
+    text-align: center;
+    padding: 3rem;
+    border-radius: 2rem;
+    user-select: none;
+}
+
+.hobby_description {
+    color: var(--color-light);
+    font-weight: 300;
+    display: block;
+    width: 90%;
+    margin: 0.8rem auto 0;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    background: var(--color-primary);
+} 
+
+/* ================ For Medium Devices (tablets) ================= */
+
+@media screen and (max-width: 1024px) {
+    .container.hobbies_container {
+        width: 60%;
+    }
+}
+
+/* ================ For Small Devices (phones) ================= */
+
+@media screen and (max-width: 600px) {
+    .container.hobbies_container {
+        width: var(--container-width-sm);
+    }
+
+    .hobby_description {
+        width: var(--container-width-sm);
+    }
+}

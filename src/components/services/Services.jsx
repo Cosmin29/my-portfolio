@@ -16,19 +16,19 @@ const Services = () => {
           <ul className ="service_list">
             <li>
               <AiOutlineCheckCircle className ="service_list-icon"/>
-              <p>Lorem ipsum dolor sit amet, consectetur adip</p>
+              <p>Modern and Visually attractive graphical layout.</p>
             </li>
             <li>
               <AiOutlineCheckCircle className ="service_list-icon"/>
-              <p>Lorem ipsum dolor sit amet, consectetur adip</p>
+              <p>Fastest delivery.</p>
             </li>
             <li>
               <AiOutlineCheckCircle className ="service_list-icon"/>
-              <p>Lorem ipsum dolor sit amet, consectetur adip</p>
+              <p>Quick response.</p>
             </li>
             <li>
               <AiOutlineCheckCircle className ="service_list-icon"/>
-              <p>Lorem ipsum dolor sit amet, consectetur adip</p>
+              <p>24/7 customer support.</p>
             </li>
           </ul>
         </article>
@@ -41,48 +41,44 @@ const Services = () => {
           <ul className ="service_list">
             <li>
               <AiOutlineCheckCircle className ="service_list-icon"/>
-              <p>Lorem ipsum dolor sit amet, consectetur adip</p>
+              <p>Responsive apps.</p>
             </li>
             <li>
               <AiOutlineCheckCircle className ="service_list-icon"/>
-              <p>Lorem ipsum dolor sit amet, consectetur adip</p>
+              <p>Full-Stack WEB DEVELOPMENT Services.</p>
             </li>
             <li>
               <AiOutlineCheckCircle className ="service_list-icon"/>
-              <p>Lorem ipsum dolor sit amet, consectetur adip</p>
-            </li>
-            <li>
-              <AiOutlineCheckCircle className ="service_list-icon"/>
-              <p>Lorem ipsum dolor sit amet, consectetur adip</p>
+              <p>Custom Web Application.</p>
             </li>
           </ul>
         </article>
         {/* END OF WEB DEVELOPMENT */}
         <article className="services">
           <div className ="service_head">
-            <h3>HOBBIES</h3>
+            <h3>Mentorship</h3>
           </div>
 
           <ul className ="service_list">
             <li>
               <AiOutlineCheckCircle className ="service_list-icon"/>
-              <p>Lorem ipsum dolor sit amet, consectetur adip</p>
+              <p>6 hours/week mentorship.</p>
             </li>
             <li>
               <AiOutlineCheckCircle className ="service_list-icon"/>
-              <p>Lorem ipsum dolor sit amet, consectetur adip</p>
+              <p>Work with people over 6 years old.</p>
             </li>
             <li>
               <AiOutlineCheckCircle className ="service_list-icon"/>
-              <p>Lorem ipsum dolor sit amet, consectetur adip</p>
+              <p>Homework and logic understanding of programming.</p>
             </li>
             <li>
               <AiOutlineCheckCircle className ="service_list-icon"/>
-              <p>Lorem ipsum dolor sit amet, consectetur adip</p>
+              <p>Fun working environment.</p>
             </li>
           </ul>
         </article>
-        {/* END OF HOBBIES */}
+        {/* END OF MENTORSHIP */}
       </div>
     </section>
   )

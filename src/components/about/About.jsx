@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import Me from '../../assets/me-about.jpg'
+import Me from '../../assets/about-me.jpg'
 import {FiAward} from 'react-icons/fi'
 import {FiUsers} from 'react-icons/fi'
 import {RiFoldersLine} from 'react-icons/ri'
@@ -13,7 +13,7 @@ const About = () => {
       <div className="container about_container">
         <div className="about_me">
           <div className="about_me-image">
-            <img src={Me} alt="About Image" />
+            <img src={Me} alt="About" />
           </div>
         </div>
         
@@ -39,9 +39,8 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-            sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Hello, my name is Cosmin, I am insightful Computer Science student from Romania and I am passionate about web development.<br></br>
+            My journey starts in high school, where I learned to write C ++ code.<br></br> Since then, I have fallen in love with the world of programming.    
           </p>
 
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
