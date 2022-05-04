@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import HOBBY1 from '../../assets/travel.jpg'                                       
 import HOBBY2 from '../../assets/ProgrammingIllustration.png'                                       
-import HOBBY3 from '../../assets/Rider-Page-Header--1170-x-532-pix-RS1.webp'                                       
+import HOBBY3 from '../../assets/wp10259559.webp'                                       
 import HOBBY4 from '../../assets/4260.webp'
    
 
