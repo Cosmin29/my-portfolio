@@ -10,8 +10,10 @@ import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 
 export const App = () => {
+
   return (
-      <>    
+    
+      <>  
           <Header />
           <Nav />
           <About />

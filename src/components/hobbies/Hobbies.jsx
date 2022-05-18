@@ -40,10 +40,13 @@ const Hobbies = () => {
             <h2>Hobbies</h2>
 
             <Swiper className="container hobbies_container"
+                pagination = {{
+                    clickable: true
+                }}
                 modules={[Pagination]}
                 spaceBetween={40}
                 slidesPerView={1}
-                pagination={{clickable: true}}>
+            >
 
                {
                    data.map(({hobby, name, description}, index) => {
